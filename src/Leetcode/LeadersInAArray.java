@@ -8,6 +8,7 @@ public class LeadersInAArray{
     public static ArrayList<Integer>
     printLeadersBruteForce(int[] arr, int n){
 
+
         ArrayList<Integer> ans= new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
@@ -23,6 +24,7 @@ public class LeadersInAArray{
                     break;
                 }
 
+
             // Push all the leaders in ans array.
             if (leader)
                 ans.add(arr[i]);
@@ -30,14 +32,13 @@ public class LeadersInAArray{
         }
 
         return ans;
-
     }
 
     public static void main(String args[])
     {
         // Array Initialization.
         int n = 6;
-        int arr[]=  {10, 11,12,22, 12, 3, 0, 6};
+        int arr[]=  {16,17,4,3,5,2};
 
 
         ArrayList<Integer> ans= printLeadersBruteForce(arr,n);

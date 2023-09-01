@@ -1,6 +1,8 @@
 package strings;
 //Write a Program to calculate number of characters, vowels, consonants, words and white space in a string
-public class stringAnalyzer {
+public class
+
+stringAnalyzer {
     public static void main(String[] args) {
         String s=("hello 12@world");
         analysinng(s);

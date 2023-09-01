@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class Remove_duplicates_from_an_unsorted_linked_list {
     public Node removeDuplicates(Node head)
     {
