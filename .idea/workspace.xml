@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a91d20-b836-4e13-b8da-2571d3beac2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Find_missing_in_second_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Find_missing_in_second_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LeadersInAArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LeadersInAArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Remove_duplicates_from_an_unsorted_linked_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Remove_duplicates_from_an_unsorted_linked_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reverse_a_Linked_List_in_groups_of_given_size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Reverse_a_Linked_List_in_groups_of_given_size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/TextJustification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayChallenge.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/stringAnalyzer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692583995466</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sep 01">
+      <created>1693545509721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693545509721</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,13 +171,39 @@
             <State />
           </value>
         </entry>
+        <entry key="bab4b82d-f585-401c-8368-2471650ad195">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/purus/IdeaProjects/PRACTICS/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="n" />
     <MESSAGE value="21 morning first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="21 morning first commit" />
+    <MESSAGE value="sep 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="sep 01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
