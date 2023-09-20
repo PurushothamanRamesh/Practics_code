@@ -1,15 +1,13 @@
 public class Sample
 {
-    static int i;
+    private  static int count;
+    private static String[] arr={"ThisThis", "is", "an", "example", "of", "text", "justification."};
     public static void main(String[] args)
     {
-        System.out.println(i);//CE
-        Sample t=new Sample();
-        System.out.println(t.i);
-        t.methodOne();
-    }
-    public void methodOne()
-    {
-        System.out.println(i);
+       while (count< arr.length){
+           if (arr[count++].length()<8)
+               break;
+       }
+        System.out.println(count);
     }
 }

@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a91d20-b836-4e13-b8da-2571d3beac2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayChallenge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hh.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Greatest_Common_Divisor_of_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Longest_Substring_Without_Repeating_Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zohoquestions/productofarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LeadersInAArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LeadersInAArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zohoquestions/AlternativeSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zohoquestions/AlternativeSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zohoquestions/MathExpressionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zohoquestions/MathExpressionValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
   </component>
   <component name="ProjectId" id="2RYBif5wXPVMzporhyAP1gXWYWh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -47,13 +55,13 @@
       <recent name="pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.validAnagram">
-    <configuration name="right_Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.right_Rotate" />
+  <component name="RunManager" selected="Application.Longest_Substring_Without_Repeating_Characters">
+    <configuration name="Greatest_Common_Divisor_of_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Greatest_Common_Divisor_of_Strings" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="set_Zeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.set_Zeros" />
+    <configuration name="Longest_Substring_Without_Repeating_Characters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Longest_Substring_Without_Repeating_Characters" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spiral_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.spiral_Matrix" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sample" />
+      <module name="PRACTICS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snippet.code2" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="snippet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,39 +102,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spiral_Matrix_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.spiral_Matrix_2" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="PRACTICS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.validAnagram" />
-      <module name="PRACTICS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.validAnagram" />
-        <item itemvalue="Application.set_Zeros" />
-        <item itemvalue="Application.right_Rotate" />
-        <item itemvalue="Application.spiral_Matrix_2" />
-        <item itemvalue="Application.spiral_Matrix" />
+        <item itemvalue="Application.Longest_Substring_Without_Repeating_Characters" />
+        <item itemvalue="Application.Greatest_Common_Divisor_of_Strings" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.code2" />
+        <item itemvalue="Application.Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693545509721</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sep 01">
+      <created>1693546138615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693546138615</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +243,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zohoquestions/AlternativeSorting.java</url>
-          <line>20</line>
+          <line>22</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -267,6 +270,15 @@
           <url>file://$PROJECT_DIR$/src/Matrix/set_Zeros.java</url>
           <line>19</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>4</line>
+          <properties class="Sample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
