@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57a91d20-b836-4e13-b8da-2571d3beac2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/MergeIntervels.java" afterDir="false" />
+    <list default="true" id="57a91d20-b836-4e13-b8da-2571d3beac2d" name="Changes" comment="sep 01">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Daily_temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/MoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Produck_of_Array_Except_itself.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Rotate_A_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Search_a_2D_Matrix_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/SubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/SubaraySumEqualToK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/setMatrixZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Find_the_Duplicate_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Find_the_Duplicate_Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Majority_Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Majority_Elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Rotateaarraykthposition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/sortcolours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/sortcolours.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -47,9 +60,9 @@
       <recent name="pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeIntervels">
-    <configuration name="Find_the_Duplicate_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Find_the_Duplicate_Number" />
+  <component name="RunManager" selected="Application.SubaraySumEqualToK">
+    <configuration name="Daily_temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Daily_temperature" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.GroupAnagram" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sliding_window.Permutation" />
+      <module name="PRACTICS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sliding_window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search_a_2D_Matrix_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Search_a_2D_Matrix_II" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Longest_Substring_Without_Repeating_Characters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Longest_Substring_Without_Repeating_Characters" />
+    <configuration name="SubaraySumEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.SubaraySumEqualToK" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
@@ -87,21 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.MergeIntervels" />
-      <module name="PRACTICS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nextpermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.nextpermutation" />
+    <configuration name="setMatrixZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.setMatrixZero" />
       <module name="PRACTICS" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeIntervels" />
-        <item itemvalue="Application.nextpermutation" />
-        <item itemvalue="Application.Find_the_Duplicate_Number" />
-        <item itemvalue="Application.GroupAnagram" />
-        <item itemvalue="Application.Longest_Substring_Without_Repeating_Characters" />
+        <item itemvalue="Application.SubaraySumEqualToK" />
+        <item itemvalue="Application.Daily_temperature" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.setMatrixZero" />
+        <item itemvalue="Application.Search_a_2D_Matrix_II" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695568901526</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sep 01">
+      <created>1695571021439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695571021439</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +271,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Leetcode/sortcolours.java</url>
-          <line>8</line>
+          <line>5</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -288,6 +308,21 @@
           <url>file://$PROJECT_DIR$/src/Matrix/set_Zeros.java</url>
           <line>19</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/sortcolours.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/Search_a_2D_Matrix_II.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/setMatrixZero.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Sample.java</url>

@@ -1,41 +1,35 @@
 package Leetcode;
 
+import java.util.Arrays;
+
 public class sortcolours {
-    public static int[] sortColors(int[] nums) {
-        int zeros=0;
-        int ones=0;
-        int two=0;
-        int j=0;
-        while(j<nums.length){
-            if(nums[j]==0) zeros++;
-            else if(nums[j]==1) ones++;
-            else two++;
-            j++;
-        }
-        int m=0;
+    public static void main(String[] args) {
+        int[] nums={2,0,1};
+        int[] arr=sortColors(nums);
+        System.out.println(Arrays.toString(arr));
+    }
 
-        for(int i=0;i<zeros;i++){
-            nums[ m++]=0;
-
-        }
-        for(int i=zeros;i<=ones+zeros-1;i++){
-            nums[ m++]=1;
-        }
-        for(int i=ones+zeros;i< nums.length;i++){
-            if (m< nums.length)
-              nums[ m++]=2;
+    private static int[] sortColors(int[] nums) {
+        int low=0,mid=0;
+        int high= nums.length-1;
+        while (mid<=high){
+            if (nums[mid]==2){
+                int temp=nums[mid];
+                nums[mid]=nums[high];
+                nums[high]=temp;
+                high--;
+            } else if (nums[mid]==1) {
+                mid++;
+            }else {
+                //mid==0
+                int temp=nums[low];
+                nums[low]=nums[mid];
+                nums[mid]=temp;
+                low++;
+                mid++;
+            }
         }
         return nums;
-
-
-    }
-    public static void main(String[] args) {
-        int[] nums={2,0,2,1,1,0};
-        int[] arr=sortColors(nums);
-        for (int a:arr) {
-            System.out.print(a+" ");
-        }
-
 
     }
 }

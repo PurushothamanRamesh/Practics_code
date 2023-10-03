@@ -16,14 +16,14 @@ public class Find_the_Duplicate_Number {
             slow=nums[slow];
             fast=nums[nums[fast]];
         }while (slow!=fast);
-//        slow=nums[0];
-//        int index=0;
-//        while (slow!=fast){
-//            slow=nums[index++];
-//            if (index== nums.length) {
-//                break;
-//            }
-//        }
+        slow=nums[0];
+        int index=0;
+        while (slow!=fast){
+            slow=nums[index++];
+            if (index== nums.length) {
+                break;
+            }
+        }
         System.out.println(slow);
         System.out.println(fast);
     }

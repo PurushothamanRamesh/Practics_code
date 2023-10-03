@@ -28,20 +28,26 @@ public class Majority_Elements {
     }
 
     public static void main(String[] args) {
-        int[] nums={2,2,1,1,1,2,2};
+        int[] nums = {2, 2, 1, 1, 1, 2, 2};
         System.out.println(majorityElement(nums));
+        // optimal Approach 
+        majorityElementOptimal(nums);
 
     }
 
-/*Map<Integer, Integer> countMap = new HashMap<>();
-        int majorityCount = nums.length / 2;
-
-        for (int num : nums) {
-            countMap.put(num, countMap.getOrDefault(num, 0) + 1);
-            if (countMap.get(num) > majorityCount) {
-                return num;
+    private static void majorityElementOptimal(int[] nums) {
+        int count=1;
+        int element=nums[0];
+        for (int i=0;i<nums.length;i++){
+            if (count==0){
+                count++;
+                element=nums[i];
+            }else if (element==nums[i]){
+                count++;
             }
+            else
+                count--;
         }
-
-        return -1*/
+        System.out.println(element);
+    }
 }
