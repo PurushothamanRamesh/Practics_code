@@ -1,4 +1,4 @@
-package sliding_window;
+package Leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
