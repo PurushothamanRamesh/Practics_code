@@ -24,6 +24,7 @@ public class Find_the_Duplicate_Number {
                 break;
             }
         }
+
         System.out.println(slow);
         System.out.println(fast);
     }

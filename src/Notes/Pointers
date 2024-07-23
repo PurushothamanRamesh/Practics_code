@@ -1,0 +1,89 @@
+Output of C programs | Set 31 (Pointers)
+=====================================
+1.Question
+ #include<stdio.h>
+
+ int main()
+ {
+ 	int a[] = { 1, 2, 3, 4, 5} ;
+ 	int *ptr;
+ 	ptr = a;
+ 	printf(" %d ", *( ptr + 1) );
+ 	return 0;
+ }
+ answer is 2;
+---------------------------------------------------------------------
+2.Question
+#include<stdio.h>
+
+int main()
+{
+	int a = 5;
+	int *ptr ;
+	ptr = &a;
+	*ptr = *ptr * 3;
+	printf("%d", a);
+
+	return 0;
+}
+answer 15
+----------------------------------------------------------------------
+3.Question
+#include<stdio.h>
+
+int main()
+{
+	int i = 6, *j, k;
+	j = &i;
+	printf("%d\n", i * *j * i + *j);
+	return 0;
+}
+answer 222
+--------------------------------------------------------------------
+4.Question
+
+#include<stdio.h>
+
+int main()
+{
+	int x = 20, *y, *z;
+
+	// Assume address of x is 500 and
+	// integer is 4 byte size
+	y = &x;
+	z = y;
+	*y++;
+	*z++;
+	x++;
+	printf("x = %d, y = %d, z = %d \n", x, y, z);
+	return 0;
+}
+
+answer x = 21, y = 504, z = 504
+
+---------------------------------------------------------------------
+5.Question
+#include<stdio.h>
+
+int main()
+{
+	int x = 10;
+	int *y, **z;
+	y = &x;
+	z = &y;
+	printf("x = %d, y = %d, z = %d\n", x, *y, **z);
+	return 0;
+}
+answer x=10 y=10 z=10
+----------------------------------------------------------------------
+5.Question
+
+
+
+
+
+
+
+
+
+
